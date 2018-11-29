@@ -1,0 +1,177 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2f2e28;
+}
+.bar
+{
+    background-color: gray;
+    color: #8a8980;
+    height: 100%;
+}
+.logo
+{
+    
+}
+.logo img
+{
+    margin-top: 60px;
+    background-color: #2f2e28;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.bar ul
+{
+    list-style-type: none;
+    margin-top: 40%;
+    width: 100%;
+}
+.bar ul li
+{
+    padding-top: 13px;
+    padding-bottom: 11px;
+    padding-left: 30px;
+    width: 100%;
+    margin-left: -50px;
+}
+.bar ul li a
+{
+    text-decoration: none;
+    color: #c2bead;
+    font-size: 25px;
+}
+.bar ul li a i
+{
+    padding-right: 20px;
+}
+.bar ul li:hover
+{
+    background-color: #c2bead;
+    width: 130%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+   
+}
+.bar ul li:hover a
+{
+    color: black;
+}
+ul li.active
+{
+    background-color: #c2bead;
+    width: 130%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+ul li.active a
+{
+    color: black;
+}
+.container .col-md-9 .media
+{
+    padding: 20px;
+    margin-top: 7%;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 80%;
+    margin-left: 40px;
+}
+.media img
+{
+    margin-left: 60px;
+}
+.allpage
+{
+    border: 2px solid;
+    width: 80%;
+    margin-left: 40px; 
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 30px;
+    height: 73%;
+    background-color: #24221A;
+}
+.allpage .home
+{
+    height: 100%;
+}
+.allpage .about
+{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.allpage .services
+{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.allpage .services ul
+{
+    list-style-type: none;
+}
+.allpage .services ul li
+{
+    padding-left: 10px;
+}
+.allpage .services  img
+{
+    margin-right: 50px;
+}
+.allpage .gallary
+{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.allpage .gallary h4
+{
+    color: #e2c934;
+}
+.allpage .contact
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: none;
+}
+.allpage .contact input ,.allpage .contact textarea
+{
+    background-color: #2f2e28;
+}
+.allpage .contact .but input
+{
+    background-color: #2f2e28;
+    margin-left: 50px;
+    width: 80px;
+    height: 40px;
+    color: white;
+}
+.allpage h2
+{
+    color: #e2c934;
+    margin-left: 10px;
+}
+.allpage p
+{
+    color: white;
+}
+.home img
+{
+    margin: 0px 20px;
+    border: 5px solid black;
+}
+.home a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
